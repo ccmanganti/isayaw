@@ -1,0 +1,44 @@
+/* MODULE STYLES */
+.attachment__name, .attachment__size{
+    display: none;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lesson-content{
+    max-width: 500px;
+    align-self: center;
+    padding: 10px 15px;
+    max-width: 500px;
+}
+.show-lesson{
+    width: 200px;
+    padding: 0;
+}
+.show-label{
+    margin-top: 30px;
+    font-size: larger;
+}
+.show-title{
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+.next-previous{
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+.next, .previous{
+    background-color: #f2972f;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+.disabled-progress{
+    color: wheat;
+}

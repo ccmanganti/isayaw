@@ -1,0 +1,329 @@
+.full-width{
+    width: 100%;
+}
+
+/* ONBOARDING STYLES */
+.onboarding{
+    width: 100%;
+}
+/* Tutorial 1 Onboarding */
+.onboarding-intro{
+    font-size: larger;
+}
+#tutorial-2, #tutorial-3{
+    display: none;
+    opacity: 0;
+}
+.tutorial-welcome, .tutorial-study, .tutorial-unlock{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+}
+.tutorial-details{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: -20px;
+}
+.tutorial-title{
+    font-size: x-large;
+    padding: 10px 0;
+}
+.current-progress{
+    color: #ec7663;
+}
+.tutorial-progress{
+    display: flex;
+    margin-top: -40px;
+    font-size: 5em;
+    color: gray;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tutorial-continue{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.arrow-continue{
+    background-color: #ec7663;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: xx-large;
+}
+#tutorial-title, #tutorial-desc, #tutorial-2, #tutorial3, #tutorial-welcome, #progress1, #progress2, #progress3 {
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+.arrow-continue {
+    transition: all .5s;
+}
+.tutorial{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1000;
+}
+.tutor-contain{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.224);
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.tutorial-container{
+    display: none;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 90%;
+    min-width: 300px;
+    max-width: 600px;
+    max-height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.tutor-content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.tutorial-next{
+    background-color: #ec7663;
+    color: white;
+    margin: 20px 10px;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tutorial-vid{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+.isayaw-instructions{
+    font-size: large;
+    font-weight: bold;
+    color: #ec7663;
+}
+.instruct{
+    max-height: 180px;
+    height: 150px;
+    font-size: small;
+    width: 90%;
+    max-width: 700px;
+    overflow: auto;
+    padding: 10px 20px;
+    color: rgb(96, 96, 96);
+    border-left: 1px solid #ec7663;
+}
+
+#modules{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: all .3s;
+}
+#exercises {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    transition: all .3s;
+}
+
+/* PROGRESS PAGE */
+/* Shwcase */
+.showcase {
+    width: 60vw;
+    max-width: 400px;
+    padding: 25px 0px;
+}
+
+/* Greetings */
+.greetings{
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(to right, rgb(238, 155, 0), rgb(234, 108, 54), rgb(158, 0, 189)); */
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(7, 4, 43), rgb(146, 80, 0)); */
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(7, 7, 49);
+    padding: 40px 0px;
+    color: #f2972f;
+    font-weight: bolder;
+    /* box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.357); */
+    border-radius: 20px;
+
+}
+
+.greeting-container{
+    display: flex;
+}
+.greeting-con{
+    display: flex;
+    flex-direction: column;
+}
+.user-prog{
+    display: flex;
+    align-items: start;
+    font-size: medium;
+    padding: 10px 35px;
+    margin-top: -30px;
+    color: white;
+    gap: 10px;
+}
+.prog {
+    /* border-radius: 40px; */
+    /* border: 2px solid darkblue; */
+    padding: 10px 7px;
+}
+.prog-label{
+    font-size: medium;
+    align-self: center;
+}
+.greet{
+    padding: 0 35px;
+    font-size: large;
+}
+.greeting{
+    padding: 0 35px;
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+}
+.continue-btn{
+    width: fit-content;
+}
+.continue{
+    margin: 0 35px;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.082);
+    transition: all .3s;
+}
+.continue:hover{
+    background-color: rgba(255, 255, 255, 0.148);
+}
+.progress-read{
+    font-size: smaller;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* Navigation */
+.module-nav{
+    padding: 20px 10px;
+    display: flex;
+    font-weight: bolder;
+    font-size: larger;
+    gap: 20px;
+}
+.nav-module.inactive{
+    color: gray;
+}
+#nav-module, #nav-exe{
+    cursor: pointer;
+}
+.assessment-link.inactive, .lesson-link.inactive{
+    display: none;
+}
+
+.lesson {
+    width: 100%;
+    height: 120px;
+    padding: 30px;
+    display: flex;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.357);
+}
+
+
+
+.lesson1, .exercise5 {
+    background-color: #ec7663;
+}
+.lesson2, .exercise4 {
+    background-color: #73afa5;
+}
+.lesson3, .exercise3 {
+    background-color: #f2972f;
+}
+.lesson4, .exercise2 {
+    background-color: #327388;
+}
+.lesson5, .exercise1 {
+    background-color: #868832;
+}
+.lessonDisable{
+    background-color: gray;
+    pointer-events: none;
+
+}
+.lessonLinkDisable{
+    pointer-events: none;
+}
+
+.progress-module-title{
+    font-weight: bold;
+    font-size: larger;
+}
+.progress-module-desc{
+    font-size: small;
+}
+.module-icon-wrap{
+    height: 100px;
+    width: 100px;
+    padding: 0 10px;
+}
+.module-icon{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: overlay;
+    min-width: 100px;
+}
+.img {
+    width: 500px;
+}
+
+/* FOOTER */
+.next-previous{
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+.next, .previous{
+    background-color: #f2972f;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+.disabled-progress{
+    color: wheat;
+}

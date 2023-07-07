@@ -1,0 +1,102 @@
+
+
+.full-width{
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* QUESTIONS STYLES */
+.assessment-form{
+    margin: auto;
+}
+.form-assess{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.question{
+    display: flex;
+    padding: 20px;
+    min-height: 175px;
+    flex-direction: column;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2972f;
+    max-width: 300px;
+}
+ label a {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+label a img {
+    align-self: center;
+    max-width: 300px;
+}
+
+.question-items{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.questionImg{
+    width: 100%;
+    padding: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
+.empty-choice {
+    padding: 10px;
+    background-color: lightgray;
+    color: rgb(106, 106, 106);
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.274);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.empty-choice img{
+    max-width: 300px;
+    padding: 10px 0;
+}
+
+input[type="radio"]:checked + label{
+    background-color: green;
+    color: white;
+}
+.formSubmit{
+    background-color: #f2972f;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.274);
+}
+.questionImg, .empty-choice, .formSubmit, .question{
+    max-width: 700px;
+}
+.qNo{
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+
+.attachment__name, .attachment__size{
+    display: none;
+}
